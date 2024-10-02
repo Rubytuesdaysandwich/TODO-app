@@ -26,13 +26,16 @@ body {
 .inner-signup-container {
     border: rgb(35, 144, 190) dashed 4px;
     padding: 16px;
-
 }
 
+.username-container {
+    margin-bottom: 16px;
+}
 
-.createAccount {
+.create-account {
 
     background-color: transparent;
+    cursor: pointer;
     color: aqua;
     border: solid teal 2px;
     margin: 1rem;

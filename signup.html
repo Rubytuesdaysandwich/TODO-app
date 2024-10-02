@@ -12,25 +12,26 @@
     <div class="outer-signup-container">
         <div class="inner-signup-container">
             <h3>Sign Up</h3>
-            <form action="">
-
+            <form id="signupForm">
                 <div class="username-container">
                     <div>
-                        <label for="username" id="username">Username</label>
+                        <label for="username">Username</label>
                     </div>
-                    <input type="text">
+                    <input id="username" type="text" name="username" required>
                 </div>
                 <div class="password-container">
                     <div>
-                        <label for="password" id="password">Password</label>
+                        <label for="password">Password</label>
                     </div>
-                    <input type="password">
+                    <input id="password" type="password" name="username" required>
                 </div>
-                <button type="submit" class="createAccount">create Account</button>
-                <a class="go-back" href="index.html">go back</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                <button type="submit" class="create-account">Create Account</button>
+                <a class="go-back" href="index.html">Go Back</a>
             </form>
         </div>
     </div>
+
+    <script type="module" src="signup.js" defer></script>
 </body>
 
 </html>
