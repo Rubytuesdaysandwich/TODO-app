@@ -58,9 +58,28 @@ ul {
     background-color: #0ca919;
     border-radius: 10px;
     margin-left: 1rem;
-    font-size: 16px;
+    font-size: 1rem;
+    height: 2rem;
 }
 
+.create-account-btn-container {
+    align-content: center;
+}
+
+.create-account-btn-container>button {
+    color: #e6df0c;
+    background: #21acb9;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+
+
+}
+
+.create-account-btn-container>button>a {
+    text-decoration: none;
+
+}
 
 
 .add-todo-section {

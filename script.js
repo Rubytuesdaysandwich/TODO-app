@@ -24,3 +24,5 @@ addTaskButton.addEventListener('click', () => {
         taskDate.value = ''; // Clear date input
     }
 });
+//================
+
