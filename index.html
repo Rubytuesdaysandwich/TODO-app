@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="todo-app-name">To-do list app</h1>
+        <div class="login-logout">
+            <label for="username">username</label>
+            <input type="text">
+            <label for="password">password</label>
+            <input type="password">
+            <button>Login</button>
+        </div>
+    </header>
+    <section class="add-todo-section">
+        <div class="outer-container">
+            <div class="input-container">
+                <button id="addTaskButton">Add Task</button>
+                <input type="text" id="taskInput" name="taskInput" placeholder="Add a new task">
+                <input type="date" name="taskDate" id="taskDate">
+            </div>
+        </div>
+    </section>
+    <section class="the-todo-list-section">
+        <div class="todo-list-container">
+            <ul class="the-todo-list">
+
+
+            </ul>
+        </div>
+    </section>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
