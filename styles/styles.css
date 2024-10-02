@@ -50,11 +50,10 @@ ul {
 }
 
 .login-logout {
-
     align-content: center;
 }
 
-.login-logout>button {
+.login-logout>form>button {
     background-color: #0ca919;
     border-radius: 10px;
     margin-left: 1rem;

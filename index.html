@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo app</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -15,11 +15,13 @@
         </div>
         <h1 class="todo-app-name">To-do list app</h1>
         <div class="login-logout">
-            <label for="username">username</label>
-            <input type="text">
-            <label for="password">password</label>
-            <input type="password">
-            <button>Login</button>
+            <form id="loginForm">
+                <label for="user-username">username</label>
+                <input type="text" id="user-username" name="user-username" required>
+                <label for="user-password">password</label>
+                <input type="password" id="user-password" name="user-password" required>
+                <button type="submit">Login</button>
+            </form>
         </div>
     </header>
     <section class="add-todo-section">
@@ -42,7 +44,7 @@
 
 
 </body>
-<script src="script.js"></script>
-<script src="api.js"></script>
+<script src="scripts/script.js"></script>
+
 
 </html>
